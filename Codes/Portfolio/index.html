@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300&family=Source+Sans+Pro:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/860de76db7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header>
+       <div class="Logo">
+           <h1>Portfolio</h1>
+         <!-- <img src="images/micha-frank-_dQgGZs9oSk-unsplash.jpg" alt=""> -->
+       </div> 
+       <button class="nav-toggle" aria-label="toggle navigation">
+         <span class="hamburger"></span>
+       </button>
+       <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">My services</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+
+            </ul>
+        </nav>
+    </header>   
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, i am <strong>Adeyinka Idowu</strong>
+        </h1>
+         <p class="section__subtitle section__subtitle--intro">Front-end dev</p> 
+         <img class="intro__img" src="images/nezt-xs-mMsZx1DzpnE-unsplash.jpg" alt="">
+    </section>
+
+    <section class="my-services" id="services">
+        <h1 class="section-title section__title--services">What I do</h1>
+        <div class="service">
+            <h3 class="what">Creating a user friendly website</h3>
+            <p class="what">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, vitae enim numquam beatae soluta, hic fuga laudantium atque ut maxime aliquid! At eius repudiandae vitae quibusdam non molestiae culpa adipisci?
+            Temporibus ab iste adipisci, asperiores consectetur dolorum unde dicta repudiandae libero cumque saepe deleniti. Culpa labore delectus aperiam non architecto? Eos, officiis officia quidem nemo sed sint libero maiores quibusdam.</p>
+        </div>
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Designer & developer based in Lagos, Nigeria.</p>
+        <p></p>
+        <div class="about--me__body">
+
+        </div>
+        <img src="images/joana-abreu-aFkzShngdaw-unsplash.jpg" alt="connect">
+    </section>
+
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__title--work section__subtitle">A selection of my range of work</p> 
+        
+        <div class="portfolio">
+            <a href="portfolio.html" class="portfolio__item">
+                <img src="images/Screenshot (2).png" alt="" class="portfolio__img">                
+            </a>
+            <a href="porfolio-two.html" class="portfolio__item">
+                <img src="images/Screenshot (3).png" alt="" class="portfolio__img">                
+            </a>
+            <a href="portfolio-three.html" class="portfolio__item">
+                <img src="images/Screenshot (4).png" alt="" class="portfolio__img">                
+            </a>
+            <a href="porfolio-four.html" class="portfolio__item">
+                <img src="images/Screenshot (5).png" alt="" class="portfolio__img">                
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <a href="gmail.com" class="footer-link">Email : adeyinkaidowu007@gmail.com</a>
+        <ul class="social-list">
+            <li class="social__list-item footer" >
+                <a href="https://twitter.com/eyede007" class="social-list__link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </i>
+            </li>
+            <li class="social__list-item">
+                <a href="#" class="social-list__link">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social__list-item">
+                <a href="#" class="social-list__link">
+                    <i class="fab fa-codepen"></i>
+                </a>
+             </li>
+            <li class="social__list-item">
+                <a href="#" class="social-list__link">
+
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
